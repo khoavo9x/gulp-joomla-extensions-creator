@@ -33,7 +33,7 @@ gulp.task('create:plugin', function (cb) {
   fs.mkdirSync(dest + '/language/en-GB');
   fs.writeFile(dest + '/language/en-GB' + "/index.html", "<!DOCTYPE html><title></title>\n");
 
-  let languageFileName = type + '_' + group + '_' + name;
+  let languageFileName = 'en-GB.' + type + '_' + group + '_' + name;
 
   let renderSysLanguage = () => {
     return gulp.src('./templates/language.ini.twig')
