@@ -1,0 +1,6 @@
+# Npm package
+package-lock.json
+node_modules/
+
+# IDE
+.idea/

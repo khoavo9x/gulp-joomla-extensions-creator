@@ -1,0 +1,22 @@
+{
+  "name": "gulp-joomla-extensions-creator",
+  "version": "1.0.0",
+  "description": "Tool to create empty joomla extension by cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "joomla"
+  ],
+  "author": "khoa.dang9x@gmail.com",
+  "license": "GPLv2",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-twig": "^1.2.0",
+    "require-dir": "^1.0.0",
+    "yargs": "^11.0.0"
+  }
+}

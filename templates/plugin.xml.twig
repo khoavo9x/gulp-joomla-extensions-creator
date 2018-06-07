@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" client="site" type="plugin" group="{{ group }}" method="upgrade">
+    <name>PLG_{{ group | upper }}_{{ name | upper }}</name>
+    <version>1.0</version>
+    <creationDate>{{ "now" | date("F Y") }}</creationDate>
+    <author>redCOMPONENT.com</author>
+    <copyright>redCOMPONENT.com</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description>PLG_{{ group | upper }}_{{ name | upper }}_DESC</description>
+
+    <files>
+        <folder>language</folder>
+        <filename plugin="{{ name }}">{{ name }}.php</filename>
+        <filename>{{ name }}.xml</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>
