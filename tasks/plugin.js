@@ -36,7 +36,7 @@ gulp.task('create:plugin', function (cb) {
   let languageFileName = 'en-GB.' + type + '_' + group + '_' + name;
 
   let renderSysLanguage = () => {
-    return gulp.src('./templates/language.ini.twig')
+    return gulp.src('./templates/plugin.language.ini.twig')
       .pipe(twig({
         data: { type, group, name }
       }))
@@ -45,7 +45,7 @@ gulp.task('create:plugin', function (cb) {
   };
 
   let renderLanguage = () => {
-    return gulp.src('./templates/language.ini.twig')
+    return gulp.src('./templates/plugin.language.ini.twig')
       .pipe(twig({
         data: { type, group, name }
       }))
